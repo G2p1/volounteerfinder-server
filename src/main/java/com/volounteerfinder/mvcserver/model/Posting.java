@@ -11,7 +11,7 @@ import java.util.Set;
 public class Posting {
     @Id
     @GeneratedValue(strategy = GenerationType.IDENTITY)
-    private Integer id;
+    private Long id;
 
     @ManyToOne
     @JoinColumn(name = "author_id", nullable = false)

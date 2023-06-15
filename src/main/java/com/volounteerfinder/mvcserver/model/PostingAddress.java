@@ -8,7 +8,7 @@ import java.util.Set;
 @Table(name = "posting_address")
 public class PostingAddress {
     @Id
-    private Integer id;
+    private Long id;
 
     @Column(nullable = false)
     private String city;

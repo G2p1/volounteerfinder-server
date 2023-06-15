@@ -7,7 +7,7 @@ import java.util.Set;
 @Table(name = "user_profile")
 public class UserProfile {
     @Id
-    private Integer id;
+    private Long id;
 
     private String title;
 

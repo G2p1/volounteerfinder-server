@@ -7,7 +7,7 @@ import java.util.Set;
 @Table(name = "user_address")
 public class UserAddress {
     @Id
-    private Integer id;
+    private Long id;
 
     @Column(nullable = false)
     private Boolean busy;
